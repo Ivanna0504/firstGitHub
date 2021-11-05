@@ -40,7 +40,7 @@ console.log(c1);
 
 
 
-// 03.11---тирнарний оператор
+// 03.11---тирнарний оператор---умови
 
 const radius = 10;
 const MATH_PI = 3.14;
@@ -58,7 +58,7 @@ const discount = userName === "Mark"
 : "0%";
 //console.log("Vitaemo" + discount);
 
-// 
+// ----------------
 
 const res = radius !== 0 && MATH_PI == 3.14
 ?  MATH_PI * (radius * radius)
@@ -101,6 +101,49 @@ if(customer1 === "Ivanna" && bYear1 === 1998 ){
 } else {
     console.log("Знижка становить - 0%");
 }
+
+//---------------- 
+
+let n = 5;
+if(n > 3){
+    n*=3;
+    console.log(n);
+}
+let m = 5;
+if(m < 3){
+    m*=3;
+    console.log(m);
+} else {
+    console.log("m is not less than 3")
+}
+
+let k = 5;
+if(k < 3){
+    k*=3;
+    console.log(k);
+} else if (k>4){
+    console.log("k is more than 4")
+}
+
+// switch
+
+switch(myName){
+  case "Ivanka": homecity = "Lviv"; break;
+  case "Dima": homecity = "Rivne"; break;
+  case "Vlad": homecity = "Kyiv";
+}
+console.log(homecity);
+
+
+//тирнарний оператор
+
+let x = 15;
+let text = x > 10 ? "х більше 10" : "х менше 10 або = 10";
+console.log(text);
+
+let x = 1;
+let text = x > 10 ? "х більше 10" : x < 10 ?  "х менше 10": " x = 10";
+console.log(text);
 
 //---Object---//
 
