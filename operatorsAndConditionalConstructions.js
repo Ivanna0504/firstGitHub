@@ -55,3 +55,16 @@ console.log(text);
 let x = 1;
 let text = x > 10 ? "х більше 10" : x < 10 ?  "х менше 10": " x = 10";
 console.log(text);
+
+// //--- ==vs=== ---//
+
+const a = 1;
+const b = "1";
+c = a == b;
+c1 = a === b;
+/*
+c it is true
+c1 it is false
+*/
+console.log(c);
+console.log(c1);
