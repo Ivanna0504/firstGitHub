@@ -1,9 +1,5 @@
 
-
-
-
-
-// // 03.11---тирнарний оператор---умови
+// // 
 
 // const radius = 10;
 // const MATH_PI = 3.14;
@@ -52,62 +48,3 @@
 
 
 
-// //---Object---//
-
-// let person = {
-//     name: "Ivanna",
-//     age: 22,
-//     gender:"female",
-//     sayHi: function(){
-//         return "Hello";
-//     }
-// }
-// // add elements or change elements
-// person.age = 25;
-// person.userID = 1234567890;
-
-// // console.log(person.name);     // вираз.ідентифікатор
-// // console.log(person["age"]);  //вираз[вираз]
-
-// console.log(person); 
-// console.log(person.sayHi()); 
-
-// // 2 
-
-// // let object = new Object();
-// // object.property = "value";
-
-// // 3
-// let object = Object.create({x: 10, y: 20});
-// object.x =20;
-// console.log(object);
-// //delete obj
-// delete object.x
-// console.log(object);
-
-///
-const objWithNewFields = {};
-
-// code here
-objWithNewFields.name = "Felix";
-objWithNewFields.age = 7;
-//console.log(objWithNewFields);
-
-const objWithSum = {
-    a: 10,
-    b: 10
-  };
-//   console.log(objWithSum);
- 
-//   objWithSum.sum = objWithSum.a + objWithSum.b;
-//   console.log("Sum of fields a + b =",  objWithSum.sum);
-//   console.log(objWithSum);
-
-  const objWithNums = {
-    nums: [1]
-  };
-  
-  // code here
-  console.log(objWithNums);
-  objWithNums.nums = [2,3];
-  console.log(objWithNums);
