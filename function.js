@@ -176,8 +176,15 @@ console.log(human.doTask());
 // console.log(`Hello, my name ${name}, I am ${age}`);
 // };
 
+//==================================================
+// callback
+//==================================================
+function fn(callback){
+    console.log("fn");
 
-
-
-
-
+    callback();
+}
+const fn2 = () => {
+    console.log("fn2")
+}
+console.log(fn(fn2));
