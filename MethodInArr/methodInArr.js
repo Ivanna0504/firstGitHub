@@ -1,37 +1,100 @@
-// const nums = [1, 2, 3, 4, 5];
+const nums = [1, 2, 3, 4, 5];
 
-// const newNums = nums.map((num, index) => {
-//     //console.log({num, index});
-//     return num + 10
-// });
-// //console.log("new nums", newNums);
+const newNums = nums.map((num, index) => {
+    //console.log({num, index});
+    return num + 10
+});
+//console.log("new nums", newNums);
 
-// const movies = [{
-//     name: "Too",
-//     genre: "drama",
-// },{
-//     name: "Boo",
-//     genre: "thirel",
-// },{
-//     name: "Mums",
-//     genre: "drama",
-// }]
+const movies = [{
+    name: "Too",
+    genre: "drama",
+},{
+    name: "Boo",
+    genre: "thirel",
+},{
+    name: "Mums",
+    genre: "drama",
+}]
 
-// const newMovies = movies.reduce((acc, currentMov, index ) => {
+const newMovies = movies.reduce((acc, currentMov, index ) => {
     
-// if (currentMov = "drama"){
-//     acc.push({
-//         ...currentMov,
-//         y:2000,
-//     });
-// }
-// console.log({acc, currentMov, index});
-// return acc;
-// }, []);
-// console.log("---------------")
-// console.log(newMovies)
+if (currentMov = "drama"){
+    acc.push({
+        ...currentMov,
+        y:2000,
+    });
+}
+console.log({acc, currentMov, index});
+return acc;
+}, []);
+console.log("---------------")
+console.log(newMovies)
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let length = fruits.length;
+
+console.log(length);//4
+
+let fruit = fruits[fruits.lengh - 1];
+
+console.log(fruit);// ????
+
+console.log(fruits.toString());
+
+console.log(fruits.join("*"));
+
+//----------------------------------------------------------
+
+ const numbers = [3, 34, 21, 54, 1];
+let = sortN = numbers.sort(function(a,b){return a - b});
+
+console.log(sortN);
+
+// return max value
+function myArrayMax(arr){
+    
+    return Math.max.apply(null, arr);
+}
+
+console.log("Max valye - ", myArrayMax(numbers));
+//------------------------------------------------------
+
+//за спаданням
+const numbers1 = [3, 34, 21, 54, 1];
+let = sortN1 = numbers1.sort(function(a,b){return b -a });
+
+console.log(sortN1);
+
+const phone = ["Lenovo", "Apple", "Blacbary"];
+let p = phone.sort();
+
+console.log(p);
+let p1 = phone.reverse();
+
+console.log(p1);
+// //-----------------------------------------------------
+
+// //sort()
+
+//sort year 
+const myCars = [
+    {type:"Volvo", year:2016},
+    {type:"Saab", year:2001},
+    {type:"BMW", year:2010}
+  ];
+  let mC = myCars.sort(function(a, b){return a.year - b.year});
+  
+ console.log(mC);
 
 
+
+
+
+
+
+
+//------------------------------------------------
 const arrayNums = [7,101,3,1,9,11,100,111];
 
  function sortArray(arrayNums) {
