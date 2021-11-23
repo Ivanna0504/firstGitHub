@@ -125,8 +125,19 @@ function sumS (nums){
 
 console.log('sum nums in array ', sumS(nums));
 
+//Метод map для роботи з масивами з використанням задекларованої функції
 
-
+	
+const nums5 = [0, 1, 2, 3, 4, 5, 6];
+const increaseNum = (num, index) => {
+  if (num <= 0) {
+    return 10;
+  }
+ 
+  return num + 10;
+}
+const updateNums = nums5.map(increaseNum);
+console.log('updated nums array ', updatedNums);
 
 //------------------
 // Task 1 - sort an array with numbers
